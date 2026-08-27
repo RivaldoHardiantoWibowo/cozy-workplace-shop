@@ -213,7 +213,9 @@ function Shop() {
               {[
                 [products[0]!, products[1]!],
                 [products[1]!, products[2]!],
-              ].map(([a, b], i) => {
+              ].map((pair, i) => {
+                const a = pair[0]!;
+                const b = pair[1]!;
                 const original = a.price + b.price;
                 const bundle = Math.round(original * 0.9);
                 return (
