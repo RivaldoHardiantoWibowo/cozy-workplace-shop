@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Feather, Leaf, RotateCcw, ShieldCheck, X } from "lucide-react";
+import { ArrowRight, Feather, Leaf, RotateCcw, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/store/product-card";
 import { products, productImages, money } from "@/lib/products";
@@ -270,4 +270,3 @@ function Home() {
   );
 }
 
-export { X };
